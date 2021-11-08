@@ -1,8 +1,4 @@
 Salom Dunyo
-<<<<<<< HEAD
 Hayr Dunyo
 
 Salom Sayfulla
-=======
-Abdulla
->>>>>>> d0e162daf1afc334e190a33505d0c06cd67fe9ca
