@@ -17,7 +17,8 @@
 
 `$ git branch -d <branch_name>` — branch o'chirish
 
-`$ git checkout <branch_name>` — boshqa branchga o'tadi 
+`$ git checkout <branch_name>` — boshqa branchga o'tadi
+`$ git switch <branch_name>` - bu ham boshqa branchga o'tadi 
 
 ## Add file
 `$ git add .` — file larni hammasi qo'shib yuboradi
