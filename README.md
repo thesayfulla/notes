@@ -22,6 +22,9 @@
 
 `$ git commit -m "my message"` - 1ta line orqali commit qiladi message beradi add qilingan file uchun
 
+## Push
+`$ git push origin <branch_name>` — remotega push qilib yuboradi
+
 ## Remote
 `$ git remote` 
 — remote ga ulangan narsalarni ko'rsatadi va odatda origin turgan bo'ladi
@@ -37,19 +40,20 @@
 
 `$ git reset --hard <commit>` - barchasini orqaga qaytaradi hech qanday saqlashlarsiz
 
-
-# Other hozircha aniqlanmagan
-`$ git blame <filename>` — filedagi commitlar, kim yozgani, kim nima commit qilganini ko'rsatadi
-
+## Log changes
 `$ git log` — barcha loglar, commitlar listi
+
+`$ git tag -l` — tag list(version list) 
+
 
 `$ git show <logid/tag>`
  — aynan o'sha logga tegishli o'zgarishlar qo'shilishlarni ko'rsatadi, commit message and more. . .
 
-`$ git tag -l` — tag list(version list) 
+
+# Other hozircha aniqlanmagan
+`$ git blame <filename>` — filedagi commitlar, kim yozgani, kim nima commit qilganini ko'rsatadi
+
 
 `$ git pull origin master` — remote branch dan pull oladi malumot olib keladi
 
 `$ git rebase master` — master bilan rebase qiladi qo'shib yuboradi
-
-`$ git push origin <branch_name>` — remotega push qilib yuboradi
