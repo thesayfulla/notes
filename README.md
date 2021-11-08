@@ -13,6 +13,8 @@
 `$ git init` - **.git** papka yaratadi keyin REMOTE bilan ishlanadi odatda initdan so'ng, remote add url qilinadi
 
 ## Branch
+`$ git branch <branch_name>` - yangi branch yaratadi
+
 `$ git checkout -b <branch_name>` — yangi branch yaratib unga o'tib oladi
 
 `$ git branch -d <branch_name>` — branch o'chirish
