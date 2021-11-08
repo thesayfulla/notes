@@ -1,6 +1,13 @@
 # only-git
 
-# Init
+## Configure tooling
+`$ git config --global user.name "[name]"` - gitni yozib olgandan so'ng unga username kiritiladi(github.com dagi misol uchun)
+
+`$ git config --global user.email "[email address]"` - email address
+
+### Keyinchlik commit da ham shu ma'lumotlar chiqadi !
+
+## Init
 `$ git clone <url>` — clone qilib oladi
 
 `$ git init` - **.git** papka yaratadi keyin REMOTE bilan ishlanadi odatda initdan so'ng, remote add url qilinadi
