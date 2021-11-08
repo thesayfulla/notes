@@ -3,7 +3,7 @@
 # Init
 `$ git clone <url>` — clone qilib oladi
 
-`$ git init` - **.git** papka yaratadi keyin REMOTE bilan ishlanadi odatda initdan so'ng
+`$ git init` - **.git** papka yaratadi keyin REMOTE bilan ishlanadi odatda initdan so'ng, remote add url qilinadi
 
 ## Branch
 `$ git checkout -b <branch_name>` — yangi branch yaratib unga o'tib oladi
