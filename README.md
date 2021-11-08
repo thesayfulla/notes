@@ -6,7 +6,9 @@
 
 `$ git add filename.txt` — 1ta file qo'shadi
 
-`$ git commit -a` — commit qilib beradi beradi va *nano* yoki *vim* ni ishga tushirib yuboradi
+`$ git commit -a` — commit qiladi message beradi add qilingan file uchun va *nano* yoki *vim* ni ishga tushirib yuboradi
+
+`$ git commit -m "my message"` - 1ta line orqali commit qiladi message beradi add qilingan file uchun
 
 `$ git checkout <branch_name>` — boshqa branchga o'tadi 
 
@@ -38,3 +40,8 @@
 `$ git tag -l` — tag list(version list) 
 
 `$ git clone <url>` — clone qilib oladi
+
+## Redo commit <a href="https://stackoverflow.com/questions/2530060/in-plain-english-what-does-git-reset-do">url</a>
+`$ git reset <commit>` - commit'ni orqaga qaytaradi(preserving changes locally, local saqlab qoladi)
+
+`$ git reset --hard <commit>` - barchasini orqaga qaytaradi hech qanday saqlashlarsiz
