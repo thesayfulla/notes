@@ -70,3 +70,8 @@
 `$ git pull origin master` — remote branch dan pull oladi malumot olib keladi
 
 `$ git rebase master` — master bilan rebase qiladi qo'shib yuboradi
+
+
+## Links:
+- <a href="https://www.youtube.com/watch?v=CRlGDDprdOQ&ab_channel=Academind">Git MERGE vs REBASE
+</a>
