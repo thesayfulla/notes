@@ -1,18 +1,18 @@
 # only-git
 
-## Configure tooling
+# Configure tooling
 `$ git config --global user.name "[name]"` - gitni yozib olgandan so'ng unga username kiritiladi(github.com dagi misol uchun)
 
 `$ git config --global user.email "[email address]"` - email address
 
 ### Keyinchlik commit da ham shu ma'lumotlar chiqadi !
 
-## Init
+# Init
 `$ git clone <url>` — clone qilib oladi
 
 `$ git init` - **.git** papka yaratadi keyin REMOTE bilan ishlanadi odatda initdan so'ng, remote add url qilinadi
 
-## Branch
+# Branch
 `$ git branch <branch_name>` - yangi branch yaratadi
 
 `$ git branch -m <oldname> <newname>` - branch nomini o'zgartirish
@@ -27,22 +27,22 @@
 
 `$ git switch <branch_name>` - bu ham boshqa branchga o'tadi 
 
-## Add file
+# Add file
 `$ git add .` — file larni hammasi qo'shib yuboradi
 
 `$ git add filename.txt` — 1ta file qo'shadi
 
 
-## View Tree
+# View Tree
 
 `$ git log --graph --oneline --all` - tree ko'rish uchun (magic)
 
-## Commit
+# Commit
 `$ git commit -a` — commit qiladi message beradi add qilingan file uchun va *nano* yoki *vim* ni ishga tushirib yuboradi
 
 `$ git commit -m "my message"` - 1ta line orqali commit qiladi message beradi add qilingan file uchun
 
-## Push
+# Push
 `$ git push` - default turgan branchga push qiladi
 
 ### push remote
@@ -53,7 +53,7 @@
 <a href="https://stackoverflow.com/questions/5195859/how-do-you-push-a-tag-to-a-remote-repository-using-git">Git push tags more information</a>
 
 
-## Remote
+# Remote
 `$ git remote` 
 — remote ga ulangan narsalarni ko'rsatadi va odatda origin turgan bo'ladi
 
@@ -62,7 +62,7 @@
 
 `$ git remote show <remote_name>` — remote origin haqida ma'lumot beradi
 
-## Diff
+# Diff
 `$ git diff` - add qilinmagan odatda o'zgartirilgan fayllarni ko'rsatadi, yani o'zgartirish qanday kiritilganini
 
 `$ git diff <filename>` - bu aynan o'sha fayldagi o'zgarishlar `+, -` bo'lgan ishlarni ko'rsatadi
@@ -73,7 +73,7 @@
 
 `$ git reset --hard <commit>` - barchasini orqaga qaytaradi hech qanday saqlashlarsiz
 
-## Log changes
+# Log changes
 `$ git log` — barcha loglar, commitlar listi
 
 `$ git tag -l` — tag list(version list) 
@@ -83,14 +83,13 @@
 `$ git show <logid/tag>`
  — aynan o'sha logga tegishli o'zgarishlar qo'shilishlarni ko'rsatadi, commit message and more. . .
 
-## Help olish
+# Help olish
 `$ git <command> --help` - ushbu komanda orqali kerakli docs malumotlar ochiladi
 
 
-## Mergetool
+# Mergetool
 
-### 1.
-Default shu turishi shart !
+### 1. Default shu turishi shart !
 1. git dagi conlictlarni vim bilan ochishga to'g'rilash
 2. conflict stilini tanlash
 3. Promp ishlashi yoki yo'qligi uchun
@@ -124,23 +123,22 @@ $ git config mergetool.prompt false
 `$ :diffg BA` - for Base
 `$ :diffg LO` - for Local
 
-### 4.
+### 4. Save qilamiz va commit
 `$ :wqa` save qilish
 
 `$ git commit -m "message"` - commit qilish
 
-`$ git clean ` - Remove extra files (e.g. *.orig) created by diff tool.
+`$ git clean -f` - Remove extra files (e.g. *.orig) created by diff tool.
 
 <a href="https://git-scm.com/docs/merge-config">More...</a>
 
-## Pull
+# Pull
 `$ git pull origin master` — remote branch dan pull oladi malumot olib keladi
 
-
-## Rebase
+# Rebase
 `$ git rebase master` — master bilan rebase qiladi qo'shib yuboradi
 
-## Blame
+# Blame
 `$ git blame <filename>` — filedagi commitlar, kim yozgani, kim nima commit qilganini ko'rsatadi
 
 
