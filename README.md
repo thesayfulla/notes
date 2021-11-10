@@ -36,7 +36,15 @@
 `$ git commit -m "my message"` - 1ta line orqali commit qiladi message beradi add qilingan file uchun
 
 ## Push
-`$ git push origin <branch_name>` — remotega push qilib yuboradi
+`$ git push` - default turgan branchga push qiladi
+
+### push remote
+`$ git push origin <branch_name>` — remote'dagi branch uchun push qilib yuboradi
+
+`$ git push  <REMOTENAME> --tags` - remote tag uchun push qiladi
+
+<a href="https://stackoverflow.com/questions/5195859/how-do-you-push-a-tag-to-a-remote-repository-using-git">Git push tags more information</a>
+
 
 ## Remote
 `$ git remote` 
@@ -67,6 +75,9 @@
 `$ git show <logid/tag>`
  — aynan o'sha logga tegishli o'zgarishlar qo'shilishlarni ko'rsatadi, commit message and more. . .
 
+## Help olish
+
+`$ git <command> --help` - ushbu komanda orqali kerakli docs malumotlar ochiladi
 
 # Other hozircha aniqlanmagan
 `$ git blame <filename>` — filedagi commitlar, kim yozgani, kim nima commit qilganini ko'rsatadi
