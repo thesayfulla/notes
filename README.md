@@ -77,16 +77,24 @@
  — aynan o'sha logga tegishli o'zgarishlar qo'shilishlarni ko'rsatadi, commit message and more. . .
 
 ## Help olish
-
 `$ git <command> --help` - ushbu komanda orqali kerakli docs malumotlar ochiladi
 
-# Other hozircha aniqlanmagan
+
+## Mergetool
+`$ git config merge.tool vimdiff` - git dagi conlictlarni vim bilan ochishga to'g'rilash
+
+## Pull
+`$ git pull origin master` — remote branch dan pull oladi malumot olib keladi
+
+
+## Rebase
+`$ git rebase master` — master bilan rebase qiladi qo'shib yuboradi
+
+## Blame
 `$ git blame <filename>` — filedagi commitlar, kim yozgani, kim nima commit qilganini ko'rsatadi
 
 
-`$ git pull origin master` — remote branch dan pull oladi malumot olib keladi
-
-`$ git rebase master` — master bilan rebase qiladi qo'shib yuboradi
+# Other hozircha aniqlanmagan
 
 
 ## Links:
