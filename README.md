@@ -15,6 +15,8 @@
 ## Branch
 `$ git branch <branch_name>` - yangi branch yaratadi
 
+`$ git branch -m <oldname> <newname>` - branch nomini o'zgartirish
+
 `$ git checkout -b <branch_name>` — yangi branch yaratib unga o'tib oladi
 
 `$ git branch -d <branch_name>` — local branch o'chirish
