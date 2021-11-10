@@ -83,7 +83,50 @@
 
 
 ## Mergetool
-`$ git config merge.tool vimdiff` - git dagi conlictlarni vim bilan ochishga to'g'rilash
+
+### 1.
+Default shu turishi shart !
+1. git dagi conlictlarni vim bilan ochishga to'g'rilash
+2. conflict stilini tanlash
+3. Promp ishlashi yoki yo'qligi uchun
+```shell
+$ git config merge.tool vimdiff
+$ git config merge.conflictstyle diff3
+$ git config mergetool.prompt false
+```
+
+### 2. mergetool ishga tushiriladi
+`$ git mergetool`
+```
+  ╔═══════╦══════╦════════╗
+  ║       ║      ║        ║
+  ║ LOCAL ║ BASE ║ REMOTE ║
+  ║       ║      ║        ║
+  ╠═══════╩══════╩════════╣
+  ║                       ║
+  ║        MERGED         ║
+  ║                       ║
+  ╚═══════════════════════╝
+```
+
+LOCAL – this is file from the current branch
+BASE – common ancestor, how file looked before both changes
+REMOTE – file you are merging into your branch
+MERGED – merge result, repoda nimani saqlash kerakligi chiqadi
+
+### 3. Shulardan biri tanlanadi
+`$ :diffg RE` - for Remote
+`$ :diffg BA` - for Base
+`$ :diffg LO` - for Local
+
+### 4.
+`$ :wqa` save qilish
+
+`$ git commit -m "message"` - commit qilish
+
+`$ git clean ` - Remove extra files (e.g. *.orig) created by diff tool.
+
+<a href="https://git-scm.com/docs/merge-config">More...</a>
 
 ## Pull
 `$ git pull origin master` — remote branch dan pull oladi malumot olib keladi
