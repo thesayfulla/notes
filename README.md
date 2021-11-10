@@ -71,6 +71,7 @@
 
 `$ git tag -l` — tag list(version list) 
 
+`$ git log -p <filename>` - barcha faylga tegishli o'zgarishlar commit, kim qilgani nima qo'shgani nimani o'chirganini ko'rsatadi
 
 `$ git show <logid/tag>`
  — aynan o'sha logga tegishli o'zgarishlar qo'shilishlarni ko'rsatadi, commit message and more. . .
