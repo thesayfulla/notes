@@ -8,9 +8,13 @@
 ### Keyinchlik commit da ham shu ma'lumotlar chiqadi !
 
 # Init
+`$ git init` - **.git** papka yaratadi keyin REMOTE bilan ishlanadi odatda initdan so'ng, remote add url qilinadi
+
+# Clone 
 `$ git clone [url]` — clone qilib oladi
 
-`$ git init` - **.git** papka yaratadi keyin REMOTE bilan ishlanadi odatda initdan so'ng, remote add url qilinadi
+`$ git clone -b <branch> <remote_repo>` - Branchga qarab clone qiladi
+
 
 # Branch
 `$ git branch [branch_name]` - yangi branch yaratadi
