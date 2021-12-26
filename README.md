@@ -71,6 +71,8 @@
 
 `$ git diff [filename]` - bu aynan o'sha fayldagi o'zgarishlar `+, -` bo'lgan ishlarni ko'rsatadi
 
+# Restore
+`$ git restore [filename]` - o'chirilgan faylni qaytaradi
 
 ## Redo commit <a href="https://stackoverflow.com/questions/2530060/in-plain-english-what-does-git-reset-do">url</a>
 `$ git reset [commit]` - commit'ni orqaga qaytaradi(preserving changes locally, local saqlab qoladi)
