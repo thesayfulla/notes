@@ -154,6 +154,11 @@ $ git config mergetool.prompt false
 `$ git blame [filename]` — filedagi commitlar, kim yozgani, kim nima commit qilganini ko'rsatadi
 
 
+# Merge branch_1 to branch_2
+`$ git checkout branch_2`
+
+`$ git merge branch_1`
+
 # Other hozircha aniqlanmagan
 
 
