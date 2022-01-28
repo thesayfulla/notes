@@ -1,4 +1,4 @@
-# only-git - best of the best practice
+# Only-git
 
 # Configure tooling
 `$ git config --global user.name "[name]"` - gitni yozib olgandan so'ng unga username kiritiladi(github.com dagi misol uchun)
