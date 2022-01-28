@@ -21,6 +21,8 @@
 
 `$ git branch -m [oldname] [newname]` - branch nomini o'zgartirish
 
+`$ git branch -av` - barcha remote va local branch larning listini ko'rish uchun ishlatiladi
+
 `$ git checkout -b [branch_name]` — yangi branch yaratib unga o'tib oladi
 
 `$ git branch -d [branch_name]` — local branch o'chirish
@@ -69,7 +71,11 @@
 # Diff
 `$ git diff` - add qilinmagan odatda o'zgartirilgan fayllarni ko'rsatadi, yani o'zgartirish qanday kiritilganini
 
+`$ git diff HEAD` - add qilinmagan barcha o'zgargan fayllarni ko'rsatadi
+
 `$ git diff [filename]` - bu aynan o'sha fayldagi o'zgarishlar `+, -` bo'lgan ishlarni ko'rsatadi
+
+`$ git diff [commit1] [commit2]` - 2ta commit lar orasidagi o'zgarishlarni ko'rish uchun ishlatiladi
 
 # Restore
 `$ git restore [filename]` - o'chirilgan faylni qaytaradi
