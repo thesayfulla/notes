@@ -16,6 +16,10 @@
 `$ git clone -b <branch> <remote_repo>` - Branchga qarab clone qiladi
 
 
+# Fetch
+
+`$ git fetch origin` - branchlarni bir xil qilishga ishlatiladi
+
 # Branch
 `$ git branch [branch_name]` - yangi branch yaratadi
 
