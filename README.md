@@ -1,4 +1,4 @@
-# only-git - best of the best practice
+# Only-git
 
 # Configure tooling
 `$ git config --global user.name "[name]"` - gitni yozib olgandan so'ng unga username kiritiladi(github.com dagi misol uchun)
@@ -15,6 +15,10 @@
 
 `$ git clone -b <branch> <remote_repo>` - Branchga qarab clone qiladi
 
+
+# Fetch
+
+`$ git fetch origin` - branchlarni bir xil qilishga ishlatiladi
 
 # Branch
 `$ git branch [branch_name]` - yangi branch yaratadi
