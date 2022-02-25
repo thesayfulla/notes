@@ -32,6 +32,8 @@
 
 `$ git branch -m [oldname] [newname]` - branch nomini o'zgartirish
 
+`$ git branch -m [newname]` - HEAD branch nomini o'zgartirish
+
 `$ git branch -av` - barcha remote va local branch larning listini ko'rish uchun ishlatiladi
 
 `$ git checkout -b [branch_name]` — yangi branch yaratib unga o'tib oladi
