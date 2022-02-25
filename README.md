@@ -15,6 +15,11 @@
 
 `$ git clone -b <branch> <remote_repo>` - Branchga qarab clone qiladi
 
+# Status
+`$ git status` - o'zgarishlar "status"ini to'liq ko'rsatib beradi
+
+`$ git status -s` - fayldagi o'zgarishlar "short status"ini ko'rsatib beradi
+
 
 # Fetch
 
