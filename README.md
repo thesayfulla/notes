@@ -28,6 +28,8 @@
 # Branch
 `$ git branch [branch_name]` - yangi branch yaratadi
 
+`$ git branch [branch_name] [commit_id]` - yangi branch yaratadi va kerakli commitgacha bo'lgan qismni copy qiladi.
+
 `$ git branch -m [oldname] [newname]` - branch nomini o'zgartirish
 
 `$ git branch -av` - barcha remote va local branch larning listini ko'rish uchun ishlatiladi
