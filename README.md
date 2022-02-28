@@ -15,6 +15,11 @@
 
 `$ git clone -b <branch> <remote_repo>` - Branchga qarab clone qiladi
 
+# Status
+`$ git status` - o'zgarishlar "status"ini to'liq ko'rsatib beradi
+
+`$ git status -s` - fayldagi o'zgarishlar "short status"ini ko'rsatib beradi
+
 
 # Fetch
 
@@ -23,7 +28,11 @@
 # Branch
 `$ git branch [branch_name]` - yangi branch yaratadi
 
+`$ git branch [branch_name] [commit_id]` - yangi branch yaratadi va kerakli commitgacha bo'lgan qismni copy qiladi.
+
 `$ git branch -m [oldname] [newname]` - branch nomini o'zgartirish
+
+`$ git branch -m [newname]` - HEAD branch nomini o'zgartirish
 
 `$ git branch -av` - barcha remote va local branch larning listini ko'rish uchun ishlatiladi
 
