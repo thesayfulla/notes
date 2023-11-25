@@ -15,6 +15,8 @@
 
 `$ git clone -b <branch> <remote_repo>` - Branchga qarab clone qiladi
 
+`$ git clone --depth 1 <remote_repo>` - Oxirgi commit bilan clone qiladi va bu katta loyihalarni qiyinchiliklarsiz tezroq yuklab olishga yordam beradi
+
 # Status
 `$ git status` - o'zgarishlar "status"ini to'liq ko'rsatib beradi
 
