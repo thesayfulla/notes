@@ -1,4 +1,6 @@
 # Only-git
+#
+SSH key to'g'irlab qo'yish kerak!
 
 # Configure tooling
 `$ git config --global user.name "[name]"` - gitni yozib olgandan so'ng unga username kiritiladi(github.com dagi misol uchun)
