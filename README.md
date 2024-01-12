@@ -1,6 +1,7 @@
 # Only-git
 
-SSH key to'g'irlab qo'yish kerak!
+# SSH key to'g'irlab qo'yish kerak!
+[Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 [Awesome Git](https://github.com/dictcp/awesome-git)
 
