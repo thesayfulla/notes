@@ -1,11 +1,11 @@
 # Only-git
 
-# SSH key to'g'irlab qo'yish kerak!
+## SSH key to'g'irlab qo'yish kerak!
 [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 [Awesome Git](https://github.com/dictcp/awesome-git)
 
-# Configure tooling
+## Configure tooling
 `$ git config --global user.name "[name]"` - gitni yozib olgandan so'ng unga username kiritiladi(github.com dagi misol uchun)
 
 `$ git config --global user.email "[email address]"` - email address
@@ -179,10 +179,9 @@ $ git config mergetool.prompt false
 
 `$ git merge branch_1`
 
-# Other hozircha aniqlanmagan
+## Other hozircha aniqlanmagan
 
-
-## Links:
+### Links:
 - <a href="https://www.youtube.com/watch?v=CRlGDDprdOQ&ab_channel=Academind">Git MERGE vs REBASE
 </a>
 
